@@ -157,11 +157,8 @@
     <ClCompile Include="MyAutoDoc.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".github\workflows\docs_automation.yml" />
     <Content Include="convert_docs.py" />
-    <Content Include="docs_automation.yml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include=".github\workflows\" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

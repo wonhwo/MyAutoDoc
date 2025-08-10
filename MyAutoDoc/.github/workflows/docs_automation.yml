@@ -33,7 +33,7 @@ jobs:
 
       - name: 6. Run AI conversion script
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+            GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python convert_docs.py
 
       - name: 7. Commit and push if changed
