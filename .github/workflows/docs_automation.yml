@@ -26,7 +26,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y doxygen
 
       - name: 4. Install Python dependencies
-        run: pip install openai lxml
+        run: pip install google-generativeai lxml
 
       - name: 5. Generate Doxygen XML
         run: doxygen Doxyfile
