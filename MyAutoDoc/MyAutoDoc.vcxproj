@@ -158,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".github\workflows\docs_automation.yml" />
+    <Content Include=".github\workflows\test.yml" />
     <Content Include="convert_docs.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
