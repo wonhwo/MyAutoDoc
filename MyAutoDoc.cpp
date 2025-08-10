@@ -21,8 +21,9 @@ public:
     User(std::string userName, int userAge) : name(userName), age(userAge) {}
 
     /**
-     * @brief 환영 인사말을 생성하여 반환합니다.
-     * @return std::string 형식의 환영 메시지.
+     * @brief User 객체를 멋지게 생성하는 생성자입니다.
+     * @param userName 사용자의 이름 (예: "홍길동").
+     * @param userAge 사용자의 실제 나이.
      */
     std::string getGreeting() {
         return "안녕하세요, " + name + "님! (" + std::to_string(age) + "세)";
